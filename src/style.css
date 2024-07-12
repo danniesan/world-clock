@@ -1,27 +1,48 @@
 body {
-  background: #dbd8e3;
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
 }
 .container {
-  background: #fafafa;
+  background: #f2f2f2;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/838/original/world-map-vector-png-12.png?1720759025);
+  background-position: center;
+  background-size: cover;
+
   max-width: 600px;
   margin: 30px auto;
   padding: 20px 50px;
+  border-radius: 30px;
   box-shadow: rgba(98, 111, 146) 0px 5px 15px;
 }
 h1 {
   text-align: center;
-  font-family: monospace;
-  font-size: 48px;
+  font-size: 60px;
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: rgb(46, 148, 185, 0.5);
 }
 h2 {
   margin: 0;
-  font-size: 33px;
+  font-size: 30px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 select {
   display: block;
   width: 100%;
   padding: 10px 6px;
   font-size: 17px;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.city-list {
+  background: rgb(46, 148, 185, 0.5);
 }
 .city {
   display: flex;
@@ -35,11 +56,14 @@ select {
 }
 .date {
   opacity: 0.7;
+  font-family: "Courier New", Courier, monospace;
 }
 .time {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
-  font-family: monospace;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .time small {
   font-size: 16px;
