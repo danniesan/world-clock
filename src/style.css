@@ -15,7 +15,7 @@ body {
   margin: 30px auto;
   padding: 20px 50px;
   border-radius: 30px;
-  box-shadow: rgba(98, 111, 146) 0px 5px 15px;
+  box-shadow: rgba(98, 111, 146) 0px 10px 20px;
 }
 h1 {
   text-align: center;
@@ -23,7 +23,8 @@ h1 {
   font-family: "Aldrich", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: rgb(46, 148, 185, 0.5);
+  background: rgb(231, 230, 225, 0.7);
+  border-radius: 30px;
 }
 h2 {
   margin: 0;
@@ -36,13 +37,18 @@ select {
   display: block;
   width: 100%;
   padding: 10px 6px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
   font-style: normal;
+  border: none;
+  border-radius: 10px;
+  opacity: 90%;
 }
 .city-list {
-  background: rgb(46, 148, 185, 0.5);
+  background: rgb(231, 230, 225, 0.7);
+  border-radius: 10px;
+  padding: 0 20px;
 }
 .city {
   display: flex;
